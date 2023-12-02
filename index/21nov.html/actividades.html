@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #333;
+            padding: 10px;
+            color: white;
+            text-align: center;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .grid-item {
+            background-color: #ddd;
+            padding: 15px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mi Página Web</h1>
+    </header>
+
+    <div class="grid-container">
+        <div class="grid-item">Elemento 1</div>
+        <div class="grid-item">Elemento 2</div>
+        <div class="grid-item">Elemento 3</div>
+        <div class="grid-item">Elemento 4</div>
+    </div>
+</body>
+
+
+
+
+<div class="dt mw6 center pt0 pb5 pv5-m pv6-ns">
+    <div class="db dtc-ns v-mid-ns">
+      <img src="http://tachyons.io/img/super-wide.jpg" alt="A bright blue sky" class="w-100 mw7 w5-ns" />
+    </div>
+    <div class="db dtc-ns v-mid ph2 pr0-ns pl3-ns">
+      <p class="lh-copy">
+        For desktop, this text is vertically aligned middle, no matter what the height of the image is.
+        On mobile, this is a paragraph below an image.
+      </p>
+    </div>
+  </div>
+
+.db {
+    display: block;
+}
+
+.dt {
+    display: table;
+}
+
+.lh-copy {
+    line-height: 1.5;
+}
+
+.mw6 {
+    max-width: 32rem;
+}
+
+.mw7 {
+    max-width: 48rem;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.pb5 {
+    padding-bottom: 4rem;
+}
+
+.pt0 {
+    padding-top: 0;
+}
+
+.ph2 {
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
+.center {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.v-mid {
+    vertical-align: middle;
+}
+
+@media screen and (min-width: 30em) {
+    .dtc-ns {
+        display: table-cell;
+    }
+
+    .w5-ns {
+        width: 16rem;
+    }
+
+    .pl3-ns {
+        padding-left: 1rem;
+    }
+
+    .pr0-ns {
+        padding-right: 0;
+    }
+
+    .pv6-ns {
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+    }
+
+    .v-mid-ns {
+        vertical-align: middle;
+    }
+}
+
+@media screen and (min-width: 30em) and (max-width: 60em) {
+    .pv5-m {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+}
+
+
+</html>

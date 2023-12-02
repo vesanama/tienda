@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="">
+          <img id="logo" src="logo.png" alt="" srcset="" />
+          <img id="mobile" src="logo-mobile.png" alt="" srcset="" />
+        </a>
+        <div class="nav-links">
+          <div class="login">
+            <a class="active">LOGIN</a>
+            <div class="bar"></div>
+            <a>REGISTER</a>
+          </div>
+          <div class="menu">
+            <a class="active">ESP</a>
+            <a>ENG</a>
+            <div class="bar large"></div>
+            <img src="./menu.png" alt="" srcset="" />
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <img src="./hero.png" />
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Cupiditate animi blanditiis laudantium cumque iusto, minus,
+        dolores dolor aliquam ullam, ipsa saepe corrupti ab odio
+        temporibus debitis? Aspernatur nesciunt totam vel. Soluta
+        deleniti ad blanditiis quibusdam, mollitia velit sit ea
+        officiis. Optio aut magnam cupiditate iusto quasi sunt.
+        Provident et eveniet perspiciatis magni laudantium aut.
+        Sapiente accusamus excepturi magnam blanditiis. Minus. Placeat
+        voluptates quibusdam repellat vitae exercitationem hic ratione
+        tenetur. Omnis tempora voluptate ipsa quo consectetur,
+        architecto, accusantium excepturi sequi laboriosam quasi
+        officia ex sunt a, maiores magni. Facere, aperiam fugit.
+        Minima ut sequi commodi? Cumque, eum autem similique, facilis
+        veniam sed deserunt consequatur itaque ratione, fugiat
+        molestiae quibusdam ducimus. Temporibus nostrum optio
+        eligendi, obcaecati error porro voluptas dignissimos quibusdam
+        vitae? Magni labore harum porro vero quod ratione ex delectus
+        voluptatem quo enim distinctio, dolorum dolorem corrupti sunt,
+        quidem eligendi iure exercitationem. Et est perferendis in
+        natus obcaecati illum, magni fugiat. Cumque commodi illum
+        facere rerum placeat dolor amet nisi fugiat aspernatur cum
+        voluptatibus laboriosam consectetur deleniti natus quibusdam
+        omnis ipsa illo, at iure earum. Placeat dignissimos expedita
+        pariatur fugiat tempora. Modi iste accusamus, soluta cumque
+        quod molestiae neque! Laborum fuga dicta animi architecto eum?
+        Consequatur adipisci ab cupiditate est. Praesentium at, quidem
+        quis cupiditate harum aspernatur autem architecto nihil
+        reprehenderit. Soluta facilis culpa earum! Magnam nesciunt
+        dicta inventore iure accusamus voluptates repudiandae dolor
+        totam saepe animi excepturi hic libero voluptatem cum
+        blanditiis omnis ab veniam soluta, repellat magni similique?
+        Quis? Minus, asperiores. Corrupti eaque adipisci beatae eos
+        repellat facilis eum perspiciatis eveniet. Rem porro aliquid
+        omnis sapiente, cum similique obcaecati. Veritatis temporibus
+        eveniet magnam illo architecto modi dolore autem. Explicabo.
+        Molestias, cupiditate? Quod quas cupiditate voluptatibus autem
+        porro atque dignissimos repellendus sit, ratione eveniet,
+        vitae iure alias velit architecto tenetur molestiae qui
+        tempore modi quaerat assumenda consequatur adipisci dolorem.
+        Molestias.
+      </p>
+    </main>
+    <footer>
+      <div class="news">
+        <div class="footer-textos">
+          <span>Join the list</span>
+          <p>Unlock the exclusive world</p>
+        </div>
+        <div class="footer-form">
+          <span>Email:</span>
+          <input type="text" placeholder="example@mail.com" />
+          <button type="submit">Submit</button>
+        </div>
+      </div>
+      <div class="info">
+        <div class="footer-text">
+          <div>
+            <p>Become a New Unique Artist</p>
+            <p>Become a Commercial Partner</p>
+          </div>
+          <div>
+            <p>Suites</p>
+            <p>Cities</p>
+            <p>Villas</p>
+          </div>
+          <div>
+            <p>Houses</p>
+            <p>Apartemnts</p>
+            <p>Contact Us</p>
+          </div>
+          <div>
+            <p>Call Center</p>
+            <p>123456789000</p>
+            <p>concierge@uniqluxury.com</p>
+          </div>
+        </div>
+        <div class="footer-bar"></div>
+        <p class="copyright">Copyright © 2022</p>
+      </div>
+    </footer>
+  </body>
+</html>
