@@ -73,6 +73,54 @@ main img {
   object-position: top -300px right 0;
   overflow-x: hidden;
 }
+.contenedor {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 3%;
+}
+
+.salesimages {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  overflow: hidden;
+  direction: rtl;
+  column-gap: 10px;
+  direction: rtl;
+}
+
+.image {
+  max-width: 150px;
+
+}
+span {
+  color: rgb(117, 105, 3);
+  font-size: x-large;
+}
+h1 {
+  font: bold
+  font-size: xx-large;
+}
+p {
+  font: caption;
+}
+.pasar {
+  background-color: transparent;
+  border: transparent;
+  display: flex;
+  align-items: center;
+}
+.botones {
+  display: flex;
+  gap: 30px;
+  margin-top: 40px;
+}
+.centro {
+  font-weight: bold;
+  border: solid 2px;
+  background-color: transparent;
+  padding: 10px 30px;
+  border-radius: 20px;
+}
 
 footer {
   background-color: black;

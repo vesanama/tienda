@@ -5,15 +5,15 @@
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>LandingAME</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
       <nav>
         <a href="">
-          <img id="logo" src="logo.png" alt="" srcset="" />
-          <img id="mobile" src="logo-mobile.png" alt="" srcset="" />
+          <img id="logo" src="imagenes/Logo.png" alt="" srcset="" />
+          <img id="mobile" src="imagenes/uniq.png" alt="" srcset="" />
         </a>
         <div class="nav-links">
           <div class="login">
@@ -31,49 +31,42 @@
       </nav>
     </header>
     <main>
-      <img src="./hero.png" />
+      <img src="imagenes/headimage.jpg" />
+    <section forsale>
+            <div class="contenedor">
+                <div>
+                    <div class="saleimages">
+                    <img src="imagenes/castillo.jpg" alt="">
+                    <img src="imagenes/piscina.jpg" alt="">
+                    <img src="imagenes/garage.jpg" alt="">
+                </div>
+            </div>
+        <div class="contenedor">
+            <div class="salestext">
+                <span>Worldwide Gallery</span>
+                <h1> Properties for rent </h1>
+                <p>
+                In an ultimate jetsetter location or a forever home, our experts have the expertise it takes to knowledgeably advise you at every stage of the property cycle.
+                </p>
+             </div>
+        </div>
+             <div>
+                <div class="botones">
+                <button class="pasar">Prev</button>
+                <button class="centro">View all properties</button>
+                <button class="pasar">Next</button>
+                </div>
+            </div>
+        </div>
+    </section>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit.
         Cupiditate animi blanditiis laudantium cumque iusto, minus,
         dolores dolor aliquam ullam, ipsa saepe corrupti ab odio
         temporibus debitis? Aspernatur nesciunt totam vel. Soluta
-        deleniti ad blanditiis quibusdam, mollitia velit sit ea
-        officiis. Optio aut magnam cupiditate iusto quasi sunt.
-        Provident et eveniet perspiciatis magni laudantium aut.
-        Sapiente accusamus excepturi magnam blanditiis. Minus. Placeat
-        voluptates quibusdam repellat vitae exercitationem hic ratione
-        tenetur. Omnis tempora voluptate ipsa quo consectetur,
-        architecto, accusantium excepturi sequi laboriosam quasi
-        officia ex sunt a, maiores magni. Facere, aperiam fugit.
-        Minima ut sequi commodi? Cumque, eum autem similique, facilis
-        veniam sed deserunt consequatur itaque ratione, fugiat
-        molestiae quibusdam ducimus. Temporibus nostrum optio
-        eligendi, obcaecati error porro voluptas dignissimos quibusdam
-        vitae? Magni labore harum porro vero quod ratione ex delectus
-        voluptatem quo enim distinctio, dolorum dolorem corrupti sunt,
-        quidem eligendi iure exercitationem. Et est perferendis in
-        natus obcaecati illum, magni fugiat. Cumque commodi illum
-        facere rerum placeat dolor amet nisi fugiat aspernatur cum
-        voluptatibus laboriosam consectetur deleniti natus quibusdam
-        omnis ipsa illo, at iure earum. Placeat dignissimos expedita
-        pariatur fugiat tempora. Modi iste accusamus, soluta cumque
-        quod molestiae neque! Laborum fuga dicta animi architecto eum?
-        Consequatur adipisci ab cupiditate est. Praesentium at, quidem
-        quis cupiditate harum aspernatur autem architecto nihil
-        reprehenderit. Soluta facilis culpa earum! Magnam nesciunt
-        dicta inventore iure accusamus voluptates repudiandae dolor
-        totam saepe animi excepturi hic libero voluptatem cum
-        blanditiis omnis ab veniam soluta, repellat magni similique?
-        Quis? Minus, asperiores. Corrupti eaque adipisci beatae eos
-        repellat facilis eum perspiciatis eveniet. Rem porro aliquid
-        omnis sapiente, cum similique obcaecati. Veritatis temporibus
-        eveniet magnam illo architecto modi dolore autem. Explicabo.
-        Molestias, cupiditate? Quod quas cupiditate voluptatibus autem
-        porro atque dignissimos repellendus sit, ratione eveniet,
-        vitae iure alias velit architecto tenetur molestiae qui
-        tempore modi quaerat assumenda consequatur adipisci dolorem.
-        Molestias.
+        deleniti a
       </p>
+
     </main>
     <footer>
       <div class="news">
@@ -87,8 +80,8 @@
           <button type="submit">Submit</button>
         </div>
       </div>
-      <div class="info">
-        <div class="footer-text">
+    <div class="info">
+       <div class="footer-text">
           <div>
             <p>Become a New Unique Artist</p>
             <p>Become a Commercial Partner</p>
