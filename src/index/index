@@ -20,7 +20,33 @@
             <a href="#">contacts</a>
         </div>
         <nav></nav>
+        <div>
+        <input type="text" placeholder="ex villa budapest">
+         </div>
+         <style> 
+            body {
+                background-color: blueviolet;
+            }
+            div {
+                width: fit-content;
+            }
+            input {
+                background-color: transparent;
+                height: 100%;
+                width: 100%;
+                border: white solid 1px;
+                border-radius: 20px;
+                color: white;
+                padding: 8px 24px;
+            }
+
+            input::placeholder{
+                color: white
+            }
+        </style>
+
     </header>
+
     _
 
 <section>
