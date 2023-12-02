@@ -32,29 +32,34 @@
     </header>
     <main>
       <img src="imagenes/headimage.jpg" />
-    <section forsale>
-            <div class="contenedor">
-                <div>
-                    <div class="saleimages">
-                    <img src="imagenes/castillo.jpg" alt="">
-                    <img src="imagenes/piscina.jpg" alt="">
-                    <img src="imagenes/garage.jpg" alt="">
-                </div>
-            </div>
+    <section>
         <div class="contenedor">
-            <div class="salestext">
-                <span>Worldwide Gallery</span>
-                <h1> Properties for rent </h1>
-                <p>
-                In an ultimate jetsetter location or a forever home, our experts have the expertise it takes to knowledgeably advise you at every stage of the property cycle.
-                </p>
-             </div>
-        </div>
-             <div>
+            <div>
+                <div class="contenedor-imagenes">
+                        <div class="imagenes">
+                            <img src="imagenes/castillo.jpg" alt="">
+                            <p>France Marseilles</p>
+                        </div>
+                        <div class="imagenes">  
+                            <img src="imagenes/piscina.jpg" alt="">
+                            <p>England Glassglow</p>    
+                        </div>
+                        <div class="imagenes inactiva">
+                            <img src="imagenes/garage.jpg" alt="">
+                            <p>German Munich</p>
+                        </div>
+                </div>
+                <div class="salestext">
+                    <span>Worldwide Gallery</span>
+                    <h1> Properties for rent </h1>
+                    <p>
+                    In an ultimate jetsetter location or a forever home, our experts have the expertise it takes to knowledgeably advise you at every stage of the property cycle.
+                    </p>
+                </div>
                 <div class="botones">
-                <button class="pasar">Prev</button>
-                <button class="centro">View all properties</button>
-                <button class="pasar">Next</button>
+                    <button class="pasar">Prev</button>
+                    <button class="centro">View all properties</button>
+                    <button class="pasar">Next</button>
                 </div>
             </div>
         </div>

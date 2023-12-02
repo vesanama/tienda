@@ -78,19 +78,45 @@ main img {
   grid-template-columns: 1fr 1fr;
   column-gap: 3%;
 }
-
-.salesimages {
+.contenedor-images {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat (12, 1fr);
   overflow: hidden;
   direction: rtl;
-  column-gap: 10px;
+  column-gap: 3%;
   direction: rtl;
 }
-
-.image {
-  max-width: 150px;
-
+.imagenes {
+  grid-column: span;
+  overflow: hidden;
+}
+.imagenes:hover {
+  cursor: pointer;
+}
+.imagenes:hover p {
+  background-color: white;
+  color: black;
+}
+.imagenes img {
+  grid-column: span 5;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.inactiva img {
+  grid-column: span 2;
+  position: relative;
+}
+.imagenes p {
+  position: absolute;
+  color: beige;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  transition: 0.5s ease;
 }
 span {
   color: rgb(117, 105, 3);
