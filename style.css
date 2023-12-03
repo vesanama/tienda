@@ -41,7 +41,7 @@ header nav a img {
   margin-right: 30px;
 }
 
-.login,
+.login
 .menu {
   display: flex;
   gap: 16px;
@@ -73,10 +73,13 @@ main img {
   object-position: top -300px right 0;
   overflow-x: hidden;
 }
-.contenedor {
+
+.forsale {
+  width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 3%;
+  place-items: center;
 }
 .contenedor-images {
   display: grid;
@@ -87,13 +90,14 @@ main img {
   direction: rtl;
 }
 .imagenes {
+  display: grid;
   grid-column: span;
   overflow: hidden;
 }
-.imagenes:hover {
+.tajeta:hover {
   cursor: pointer;
 }
-.imagenes:hover p {
+.tarjeta:hover p {
   background-color: white;
   color: black;
 }
