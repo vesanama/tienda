@@ -7,6 +7,7 @@
       content="width=device-width, initial-scale=1.0" />
     <title>LandingAME</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="queries.css" />
   </head>
   <body>
     <header>
@@ -17,24 +18,21 @@
         </a>
         <div class="nav-links">
           <div class="login">
-            <a class="active">LOGIN</a>
+            <a class="active">LOGIN |</a>
             <div class="bar"></div>
             <a>REGISTER</a>
           </div>
-          <div class="menu">
-            <a class="active">ESP</a>
+            <div class="menu">
+            <a class="active">ESP |</a>
             <a>ENG</a>
-            <div class="bar large"></div>
-            <img src="./menu.png" alt="" srcset="" />
+          <div class="bar large"></div>
+            <img src="imagenes/lineas menu.jpg" alt="" srcset="" />
           </div>
-        </div>
-      </nav>
     </header>
-    <main>
-      <img src="imagenes/headimage.jpg"/>
-    </main>
-    <section class="forsale">
-        <div class="contenedor-imagenes">
+<main>
+  <img src="imagenes/headimage.jpg">
+  <div>
+      <div class="contenedor-imagenes">
             <div class="imagenes">
                 <div class="tarjeta">
                     <img src="imagenes/castillo.jpg" alt="">
@@ -53,7 +51,7 @@
                 </div>
             </div>
         </div>
-            <div class="salestext">
+          <div class="salestext">
                     <span>Worldwide Gallery</span>
                     <h1> Properties for rent </h1>
                     <p>
@@ -66,21 +64,63 @@
                     <button class="pasar">Next</button>
             </div>
         </div>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Cupiditate animi blanditiis laudantium cumque iusto, minus,
-        dolores dolor aliquam ullam, ipsa saepe corrupti ab odio
-        temporibus debitis? Aspernatur nesciunt totam vel. Soluta
-        deleniti a
-      </p>
+      </div>
+    <table>
+        <tr>
+          <td>
+            <img src="imagenes/Mask group.jpg" alt="">
+            <p>The Astor</p>
+            <h2>Saint Regis</h2>
+          </td>
+          <td>
+            <img src="imagenes/Mask group-1.jpg" alt="">
+            <p>Urbin</p>
+            <h2>Coconut Grove</h2>
+          </td>
+          <td>
+            <img src="imagenes/Mask group-2.jpg" alt="">
+            <p>Solterre</p>
+            <h2>CockShell Bay</h2>
+          </td>
+          <td>
+            <img src="imagenes/Mask group-3.jpg" alt="">
+            <p>The William</p>
+            <h2>Saint Regis</h2>      
+        </td>
+        </tr>
+        <tr>
+          <td>
+            <img src="imagenes/Mask group-4.jpg" alt="">
+            <p>Giralda Palace</p>
+            <h2>Coconut Grove</h2>      </td>
+          <td>
+            <img src="imagenes/Mask group-5.jpg" alt="">
+            <p>The Surf Row</p>
+            <h2>Coral Gables</h2>      
+        </td>
+          <td>
+            <img src="imagenes/Mask group-6.jpg" alt="">
+            <p>Rosewood</p>
+            <h2>Bahamas Mar</h2>      
+        </td>
+          <td>
+            <img src="imagenes/Mask group-7.jpg" alt="">
+            <p>Indigo</p>
+            <h2>Vero Beach</h2>     
+         </td>
+        </tr>
+    </table>
      </main> 
     <footer>
       <div class="news">
         <div class="footer-textos">
           <span>Join the list</span>
-          <p>Unlock the exclusive world</p>
+          <p>Unlock the</p>
+          <p>exclusive world</p>
         </div>
         <div class="footer-form">
+          <span>Name:</span>
+          <input type="text" placeholder="fullname" />
           <span>Email:</span>
           <input type="text" placeholder="example@mail.com" />
           <button type="submit">Submit</button>
@@ -89,8 +129,9 @@
     <div class="info">
        <div class="footer-text">
           <div>
-            <p>Become a New Unique Artist</p>
-            <p>Become a Commercial Partner</p>
+            <p>Become a</p>
+            <p>New Unique Artist</p>
+            <p>Commercial Partner</p>
           </div>
           <div>
             <p>Suites</p>
@@ -109,7 +150,7 @@
           </div>
         </div>
         <div class="footer-bar"></div>
-        <p class="copyright">Copyright © 2022</p>
+        <p class="copyright">Copyright © 2023</p>
       </div>
     </footer>
   </body>

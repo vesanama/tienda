@@ -1,0 +1,22 @@
+@media screen and (max-width: 600px) {
+    #logo {
+      display: none;
+    }
+    #mobile {
+      display: block;
+    }
+  
+    .login {
+      display: none;
+    }
+  
+    .menu a,
+    .menu div {
+      display: none;
+    }
+  
+    main img {
+      object-position: center;
+    }
+  }
+  
