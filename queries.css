@@ -19,4 +19,19 @@
       object-position: center;
     }
   }
+  p {
+    margin: 0; /* Eliminar el margen predeterminado del párrafo */
+  }
+
+  @media only screen and (min-width: 320px) and (max-width: 767px) {
+    td {
+      padding: 5px;
+    }
+  }
+
+  @media only screen and (min-width: 768px) and (max-width: 1280px) {
+    td {
+      padding: 8px;
+    }
+  }
   

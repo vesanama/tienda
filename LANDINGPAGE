@@ -31,40 +31,6 @@
     </header>
 <main>
   <img src="imagenes/headimage.jpg">
-  <div>
-      <div class="contenedor-imagenes">
-            <div class="imagenes">
-                <div class="tarjeta">
-                    <img src="imagenes/castillo.jpg" alt="">
-                    <p>France</p>
-                    <h1>Marseilles</h1>
-                </div>
-                <div class="tarjeta">  
-                    <img src="imagenes/piscina.jpg" alt="">
-                    <p>England</p>
-                    <h1>Glassglow</h1>    
-                </div>
-                <div class="tarjeta">
-                    <img src="imagenes/garage.jpg" alt="">
-                    <p>German</p>
-                    <h1>Munich</h1>
-                </div>
-            </div>
-        </div>
-          <div class="salestext">
-                    <span>Worldwide Gallery</span>
-                    <h1> Properties for rent </h1>
-                    <p>
-                    In an ultimate jetsetter location or a forever home, our experts have the expertise it takes to knowledgeably advise you at every stage of the property cycle.
-                    </p>
-            </div>
-            <div class="botones">
-                    <button class="pasar">Prev</button>
-                    <button class="centro">View all properties</button>
-                    <button class="pasar">Next</button>
-            </div>
-        </div>
-      </div>
     <table>
         <tr>
           <td>
@@ -92,7 +58,8 @@
           <td>
             <img src="imagenes/Mask group-4.jpg" alt="">
             <p>Giralda Palace</p>
-            <h2>Coconut Grove</h2>      </td>
+            <h2>Coconut Grove</h2>      
+          </td>
           <td>
             <img src="imagenes/Mask group-5.jpg" alt="">
             <p>The Surf Row</p>
@@ -110,7 +77,7 @@
          </td>
         </tr>
     </table>
-     </main> 
+</main> 
     <footer>
       <div class="news">
         <div class="footer-textos">

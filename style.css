@@ -74,45 +74,39 @@ main img {
   overflow-x: hidden;
 }
 
+.contenedor {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+  justify-content: center;
+}
+.contenedor-textos {
+  padding: 50px;
+}
+
+.botones {
+  display: flex;
+  justify-content: space-between;
+}
 .contenedor-images {
   display: grid;
   grid-template-columns: repeat (12, 1fr);
   overflow: hidden;
   direction: rtl;
-  column-gap: 3%;
-  direction: rtl;
+  gap: 3%;
 }
-.imagenes {
-  display: grid;
-  grid-template-columns: repeat (12, 1fr);
-  overflow: hidden;
-  direction: rtl;
-  column-gap: 3%;
-  direction: rtl;
-}
-
-.tarjeta {
-  display: grid;
-  grid-column: span;
-  overflow: hidden;
-}
-.tajeta:hover {
-  cursor: pointer;
-}
-.tarjeta:hover p {
-  background-color: white;
-  color: black;
-}
-.imagenes img {
+.images {
   grid-column: span 5;
+  overflow: hidden;
   position: relative;
+}
+.active {
+  grid-column: span;
+}
+.images img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-}
-.inactiva img {
-  grid-column: span 2;
-  position: relative;
 }
 .imagenes p {
   position: absolute;
@@ -124,6 +118,14 @@ main img {
   padding: 10px;
   transition: 0.5s ease;
 }
+.images:hover {
+  cursor: pointer;
+}
+.images:hover p {
+  background-color: beige;
+  color: black;
+}
+
 span {
   color: rgb(117, 105, 3);
   font-size: x-large;
@@ -155,26 +157,19 @@ p {
 }
 table {
   width: 100%;
-  margin-left: 20px;
-  margin-right: 20px;
-  border-collapse: collapse; 
+  padding: 0% 10%;
 }
+
 td {
-  padding: 10px;
+  padding: 1px;
   text-align: left;
   vertical-align: bottom;
 }
-td img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin-bottom: 2px;
-}
-td p {
-  font-size: medium;
-}
-td h1 {
-    font-size: x-small;
+
+img {
+  width: fit-content;
+  height: fit-content;
+  display: grid;
 }
 
 footer {
@@ -191,7 +186,6 @@ footer {
   gap: 160px;
   padding: 16px 50px;
   transform: translate(0, -50%);
-  vertical-align: middle;
 }
 
 .news span {
