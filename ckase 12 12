@@ -1,0 +1,7 @@
+Let A=10
+Let B=5
+Let C=15
+If (A>b and A>C){
+    console.log ("A es mayor)
+else if (B>A and B>A)
+}

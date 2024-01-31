@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1</title>
+</head>
+<body>
+
+<script>
+    var numeroDeElementos = 5; 
+
+    function generarFibonacci(n) {
+        var fibonacciSerie = [];
+        for (var i = 0; i < n; i++) {
+            if (i <= 1) {
+                fibonacciSerie.push(i);
+            } else {
+                fibonacciSerie.push(fibonacciSerie[i - 1] + fibonacciSerie[i - 2]);
+            }
+        }
+        return fibonacciSerie;
+    }
+
+    var resultado = generarFibonacci(numeroDeElementos);
+    console.log(resultado);
+</script>
+
+</body>
+</html>
