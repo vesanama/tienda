@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Music Player</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        #player-container {
+            max-width: 400px;
+            margin: 50px auto;
+        }
+
+        #album-cover {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        #song-details {
+            list-style: none;
+            padding: 10px;
+        }
+
+        #controls {
+            margin-top: 20px;
+        }
+
+        button {
+            padding: 10px 15px;
+            margin: 0 5px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+
+<div id="player-container">
+    <img id="album-cover" src="album_cover.jpg" alt="Album Cover">
+
+    <ul id="song-details">
+        <li><strong>Song:</strong> Song Name</li>
+        <li><strong>Artist:</strong> Artist Name</li>
+        <li><strong>Length:</strong> 3:45</li>
+        <li><strong>Album:</strong> Album Name</li>
+        <li><strong>Year:</strong> 2023</li>
+        <li><strong>Genre:</strong> Rock</li>
+    </ul>
+
+    <div id="controls">
+        <button id="previous">Previous</button>
+        <button id="play">Play</button>
+        <button id="pause">Pause</button>
+        <button id="next">Next</button>
+        <button id="sound">Sound On/Off</button>
+    </div>
+</div>
+
+</body>
+</html>
