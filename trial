@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Music Player</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        #player-container {
+            max-width: 400px;
+            margin: 50px auto;
+        }
+
+        #album-cover {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        #song-details {
+            list-style: none;
+            padding: 10px;
+        }
+
+        #controls {
+            margin-top: 20px;
+        }
+
+        button {
+            padding: 10px;
+            margin: 0 5px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+
+<div id="player-container">
+    <img id="album-cover" src="album_cover.jpg" alt="Album Cover">
+
+    <ul id="song-details">
+        <li><strong>Canción:</strong> Nombre</li>
+        <li><strong>Artista:</strong> Nombre</li>
+        <li><strong>Duración:</strong> 3:45</li>
+        <li><strong>Álbum:</strong> Nombre</li>
+        <li><strong>Año:</strong> 2023</li>
+        <li><strong>Género:</strong> Rock</li>
+    </ul>
+
+    <div id="controls">
+        <button id="previous"><i class="fas fa-step-backward"></i></button>
+        <button id="play"><i class="fas fa-play"></i></button>
+        <button id="pause"><i class="fas fa-pause"></i></button>
+        <button id="next"><i class="fas fa-step-forward"></i></button>
+        <button id="sound"><i class="fas fa-volume-up"></i></button>
+    </div>
+</div>
+    <div id="listas">
+        <div>
+            Buscador 
+        
+            <div style="border: 1px; height: 30px;">
+
+                <input type="text" name="" id="buscador">  
+                < Buscador   
+            </div>
+         </div>
+        <div style="border: 1px solid black; width: 300px; ">
+
+            Resultados del buscador
+            <li> <strong> Cancion 1</strong><img src="./img/play-solid.svg" alt="" width="15" height="15"><img src="./img/heart-solid.svg" alt="" width="15" height="15"><img src="./img/plus-solid.svg" alt="" width="15" height="15"></li>
+            <li> <strong> Cancion 2</strong><img src="./img/play-solid.svg" alt="" width="15" height="15"><img src="./img/heart-solid.svg" alt="" width="15" height="15"><img src="./img/plus-solid.svg" alt="" width="15" height="15"></li>
+            <li> <strong> Cancion 3</strong><img src="./img/play-solid.svg" alt="" width="15" height="15"><img src="./img/heart-solid.svg" alt="" width="15" height="15"><img src="./img/plus-solid.svg" alt="" width="15" height="15"></li>
+        </div>
+        <div style="border: 1px; height: 30px;">
+            
+        </div>
+        <div style="border: 1px solid black; width: 300px;">
+            Resultados del buscador
+            <li> <strong> Cancion 1</strong><img src="./img/play-solid.svg" alt="" width="15" height="15"><img src="./img/heart-solid.svg" alt="" width="15" height="15"><img src="./img/trash-solid.svg" alt="" width="15" height="15"></li>
+            <li> <strong> Cancion 2</strong><img src="./img/play-solid.svg" alt="" width="15" height="15"><img src="./img/heart-solid.svg" alt="" width="15" height="15"><img src="./img/trash-solid.svg" alt="" width="15" height="15"></li>
+            <li> <strong> Cancion 3</strong><img src="./img/play-solid.svg" alt="" width="15" height="15"><img src="./img/heart-solid.svg" alt="" width="15" height="15"><img src="./img/trash-solid.svg" alt="" width="15" height="15"></li>
+        </div>
+        <div style="border: 1px; height: 30px;">
+
+        </div>
+        <div style="border: 1px solid black; width: 300px;">
+            Resultados del buscador
+            <li> <strong> Cancion 1</strong><img src="./img/play-solid.svg" alt="" width="15" height="15"><img src="./img/heart-solid.svg" alt="" width="15" height="15"><img src="./img/plus-solid.svg" alt="" width="15" height="15"></li>
+            <li> <strong> Cancion 2</strong><img src="./img/play-solid.svg" alt="" width="15" height="15"><img src="./img/heart-solid.svg" alt="" width="15" height="15"><img src="./img/plus-solid.svg" alt="" width="15" height="15"></li>
+            <li> <strong> Cancion 3</strong><img src="./img/play-solid.svg" alt="" width="15" height="15"><img src="./img/heart-solid.svg" alt="" width="15" height="15"><img src="./img/plus-solid.svg" alt="" width="15" height="15"></li>
+       
+        </div>
+    </div> 
+</body>
+</html
